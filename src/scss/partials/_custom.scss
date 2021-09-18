@@ -144,6 +144,7 @@ header{
 .main_content_mobile{
     @media(max-width:768px){
         overflow: hidden;
+        padding-top: 50px;
     }
     img{
     @media(max-width:768px){
@@ -197,8 +198,9 @@ header{
 .flex_design{
     display: flex;
     img{
-        @media(max-width:700px){
-            width: 370px;
+        @media(max-width:768px){
+            width: 100%;
+
         }
         width: 100px;
     }
@@ -377,7 +379,8 @@ header{
 }
 .creative_profile{
     @media(max-width:768px){
-        width: 340px;
+        width: 100%;
+        margin: 0;
     }
     width: 570px;
     background-color: #fff;
@@ -621,9 +624,6 @@ header{
     justify-content: center;
   }
   .emailadd{
-      @media(max-width:768px){
-          margin-left: 60px;
-      }
     background-color: #fff;
     width: 290px;
     height: 55px;
