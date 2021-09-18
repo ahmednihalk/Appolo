@@ -36,7 +36,6 @@ const swiper = new Swiper('.swiper', {
   });
 
   var cutoms = new Swiper(".mySwiper", {
-    slidesPerView: 3,
     spaceBetween: 30,
     loop: true,
     pagination: {
@@ -55,5 +54,10 @@ const swiper = new Swiper('.swiper', {
       768: {
         slidesPerView: 1,
         spaceBetween: 40,
-    },
+      },
+      1024: {
+        slidesPerView: 1,
+        spaceBetween: 50,
+      },
+    }
   });
