@@ -199,7 +199,8 @@ header{
     display: flex;
     img{
         @media(max-width:768px){
-            width: 100%;
+            width: 235px;
+            padding-top: 10px;
 
         }
         width: 100px;
@@ -414,6 +415,9 @@ header{
     }
 }
 .happy_customer{
+    @media(max-width:768px){
+        padding: 30px;
+    }
     background-color: #fff;
     text-align: center;
     padding: 50px;
@@ -624,6 +628,10 @@ header{
     justify-content: center;
   }
   .emailadd{
+      @media(max-width:768px){
+          width: 250px;
+          margin-left: 0;
+      }
     background-color: #fff;
     width: 290px;
     height: 55px;
